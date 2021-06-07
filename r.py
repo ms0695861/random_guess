@@ -5,7 +5,13 @@
 
 import random
 
-r = random.randint(1, 10)
+start = input('Please enter the initial value: ')
+end = input('Please enter the end value: ')
+
+s = int(start)
+e = int(end)
+
+r = random.randint(s, e)
 print(r)
 count = 0
 
